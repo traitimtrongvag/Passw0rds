@@ -40,7 +40,7 @@ if __name__ == '__main__':
                 t.sleep(0.01)
     
   
-            print(f"\nMật khẩu được chọn là: {random_string}")
+            print(f"\nThe chosen password is: {random_string}")
             input()
             os.system('cls' if os.name == 'nt' else 'clear')
         elif choice == '2':
